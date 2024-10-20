@@ -1,0 +1,13 @@
+#+TITLE: BPM's CV
+#+AUTHOR: Bryce Mazurowski
+#+EMAIL: brycepm2@gmail.com
+
+* General
+This is a repo for my CV. It is written in LaTeX using a custom class.
+
+I am using resume class from Trey Hunter [[http://www.treyhunter.com/]]
+with some slight modifications
+* Basic
+Will follow branching workflow.
+- Main branch will be full CV
+- Other branches will be pared down for applications
