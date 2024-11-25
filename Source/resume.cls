@@ -115,7 +115,7 @@
  \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
   \\
   {\em #3} \hfill {\em #4} % Italic job title and location
-  }\tinyskip
+  }\smallskip
   \begin{list}{$\cdot$}{\leftmargin=0.75em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
@@ -128,4 +128,4 @@
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
 \def\sectionlineskip{\smallskip} % The space above the horizontal line for each section 
 \def\nameskip{\medskip} % The space after your name at the top
-\def\sectionskip{\tinyskip} % The space after the heading section
+\def\sectionskip{\smallskip} % The space after the heading section
